@@ -38,11 +38,6 @@ requirements:
 test:
   imports:
     - maestral
-    - maestral.config
-    - maestral.gui
-    - maestral.gui.resources
-    - maestral.sync
-    - maestral.sync.utils
   commands:
     - maestral --help
 
