@@ -1,5 +1,5 @@
 {% set name = "maestral" %}
-{% set version = "0.4.3.post1" %}
+{% set version = "0.4.4" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: 1a34df42c7591d4e175e4cc78389ab277716bd01da8f425ac2fd8563471cd431
+  sha256: 37a986ec66c47fa31d3cac0a904932bd5fba1ebf7e1aa97c39cb665af24edf40
 
 build:
   number: 0
