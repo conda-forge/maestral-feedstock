@@ -28,7 +28,7 @@ requirements:
     - keyring >=19.0.0
     - keyrings.alt >=3.0.0
     - pyqt
-    - pyro4
+    - pyro5
     - python >=3.6
     - requests
     - setuptools
