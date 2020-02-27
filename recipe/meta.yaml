@@ -10,7 +10,7 @@ source:
   sha256: c3addb6affad896e613833d5cdbee48436825fb8a0b435fb38d3681f7ca888d9
 
 build:
-  number: 0
+  number: 1
   entry_points:
     - maestral=maestral.cli:main
   noarch: "python"
@@ -34,6 +34,8 @@ requirements:
     - setuptools
     - u-msgpack-python
     - watchdog
+    - lockfile
+    - bugsnag
 
 test:
   imports:
