@@ -22,20 +22,22 @@ requirements:
     - python >=3.6
     - setuptools
   run:
+    - atomicwrites
     - blinker
+    - bugsnag
     - click >=7.0
     - dropbox >=9.4.0
     - keyring >=19.0.0
     - keyrings.alt >=3.0.0
-    - pyqt
+    - lockfile
+    - packaging
     - pyro5
     - python >=3.6
     - requests
+    - sdnotify
     - setuptools
     - u-msgpack-python
     - watchdog
-    - lockfile
-    - bugsnag
 
 test:
   imports:
